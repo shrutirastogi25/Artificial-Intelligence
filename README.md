@@ -14,4 +14,22 @@
 12. Write a prolog program to implement reverse(L,R),were List L is original and Lisr R is reversed list.
 13. Write a prolog program to implement palindrome(L) which checks whether a list L is a palindrome or not.
 14. Write a prolog program to implement sumlist(L,S) so that S is the sum of the given list L.
-15. Write a prolog program to implement two predicates evenlength(list) and oddlenght(List) so that  
+15. Write a prolog program to implement two predicates evenlength(list) and oddlenght(List) so that they are true if their argument is a list of even or odd length resspectively.
+16. Write a Prolog program to implement nth_elsemnt(N,L,X) where N is the desired position in a list L and X represents the Nth element of L.
+17. Write a prolog program to implement remove_dup(l,r),where L denotes the list with duplicates and the list R is the list with duplicates removed.
+18. Write a prolog program to implement maxlist(L,M) so that M is the maximum number in the list.
+19. Write a prolog program to implement insert_nth(I,N,L,R) that inserts an item I into Nth position of list L to generate a list R.
+20. Write a prolog program to implement sublist(S,L) that checks whether the list S is the sublist of list L or not. [Check for sequence or thr part in the same order].
+21. Write a prolog program to implement delete_nth(X,L,R) that removes the element on Nth position from a list L to generate a list R.
+22. Write a prolog program to implement delete_all(X,L,R) where X denotes the element whose all occurences has to be deleted from list L to obtain list R.
+23. Write a prolog program to implement merge(L1,L2,L3) where L1 is first ordered list and L2 is second ordered list and L3 represents the merged list.
+24. Write a prolog program that will take grammar rules in the following format:
+            NT->(NT|T)*
+    Where NT is any nonterminal, T is any terminal and Kleen star(*) signifies any number of repetetitions,and generates the corresponding top-down parser, that is:
+    sentence->noun-phrase,verb-phrase
+    determiner->[the]
+    will generate the following:
+    sentence(I,O):- noun-phrased(I,R),verb-phrase(R,O).
+    determiner([the|X],X):-!.
+25. Write a prolog program that implements Semantic Networks (ATN/RTN).
+ 
